@@ -4,9 +4,9 @@ import defaultAnimationProps from "../../utils/defaultAnimationProps";
 
 interface Props {
     /**
-     * The style of the list.
+     * Whether to use the alternate style of the list.
      */
-    readonly style: "default" | "alt";
+    readonly alternate?: boolean;
 }
 
 /**
@@ -16,7 +16,7 @@ export default function UnorderedList(props: PropsWithChildren<Props>) {
     return (
         <motion.ul
             {...defaultAnimationProps}
-            className={props.style === "default" ? "" : "alt"}
+            className={props.alternate ? "alt" : ""}
         >
             {Children.map(props.children, (child) => (
                 <li>{child}</li>
