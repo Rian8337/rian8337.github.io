@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import { TextAlignment } from "../../constants/TextAlignment";
 import { WrapperStyle } from "../../constants/wrapper/WrapperStyle";
 import Table from "../table/Table";
-import TableHeader from "../table/TableHeader";
 import TableRow from "../table/TableRow";
 import Wrapper from "../wrapper/Wrapper";
 import { MonthNumber } from "../../structures/MonthNumber";
@@ -77,8 +76,6 @@ export default function PostHistory(props: Props) {
             </h3>
 
             <Table>
-                <TableHeader columns={["Title"]} />
-
                 <TableBody>
                     {props.titles.map((title, i) => (
                         <TableRow

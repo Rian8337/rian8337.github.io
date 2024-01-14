@@ -74,8 +74,8 @@ const projectItems: Item[] = [
         description: (
             <p>
                 A project that measures the difficulty of a beatmap inside
-                osu!droid and the performance of its scores. This project is
-                hosted inside the Discord server.
+                osu!droid and the grade of performance of its scores. This
+                project is hosted inside the Discord server.
             </p>
         ),
         faIcon: faLineChart,
@@ -234,8 +234,37 @@ export default function Home() {
 
             <Spotlight
                 style={SpotlightStyle.style2}
-                imageUrl="images/posts/2024/1/1/myself.jpg"
+                imageUrl="images/posts/2024/1/2/poster.png"
                 orientation={SpotlightOrientation.right}
+                contentAlignment={SpotlightContentAlignment.left}
+                imagePosition={SpotlightImagePosition.center}
+                onscrollImage={SpotlightOnscrollImage.fadeIn}
+            >
+                <h2>A visit to NALI 2023 in Universiti Teknologi Malaysia</h2>
+                <p>
+                    I visited the NALI 2023 event in Universiti Teknologi
+                    Malaysia at Johor Bahru! Here is the summary and my
+                    thoughts.
+                </p>
+
+                <Actions
+                    stacked
+                    actions={[
+                        <Button
+                            key={0}
+                            label="Read more"
+                            onClick={() => {
+                                navigate("/post/2024/1/2");
+                            }}
+                        />,
+                    ]}
+                />
+            </Spotlight>
+
+            <Spotlight
+                style={SpotlightStyle.style2}
+                imageUrl="images/posts/2024/1/1/myself.jpg"
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
