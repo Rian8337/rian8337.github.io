@@ -3,12 +3,18 @@ import Banner from "../banner/Banner";
 import { BannerStyle } from "../../constants/banner/BannerStyle";
 import { TextAlignment } from "../../constants/TextAlignment";
 import { BannerContentAlignment } from "../../constants/banner/BannerContentAlignment";
+import Head from "../Head";
 
 interface Props {
     /**
      * The title of the post.
      */
     readonly title: ReactNode;
+
+    /**
+     * The website title to display in the post.
+     */
+    readonly websiteTitle: string;
 
     /**
      * The URL to the header image.
@@ -24,6 +30,11 @@ interface Props {
      * The description of the post.
      */
     readonly description?: ReactNode;
+
+    /**
+     * The website description to display in the post.
+     */
+    readonly websiteDescription?: string;
 }
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
@@ -41,19 +52,23 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
  */
 export default function PostHeader(props: Props) {
     return (
-        <Banner
-            style={BannerStyle.style3}
-            imageUrl={props.imageUrl}
-            textAlign={TextAlignment.center}
-            contentAlignment={BannerContentAlignment.center}
-        >
-            <h1>{props.title}</h1>
+        <>
+            <Head title={`${props.websiteTitle} - Rian's Blog`} />
 
-            {props.description ? (
-                <p className="major">{props.description}</p>
-            ) : null}
+            <Banner
+                style={BannerStyle.style3}
+                imageUrl={props.imageUrl}
+                textAlign={TextAlignment.center}
+                contentAlignment={BannerContentAlignment.center}
+            >
+                <h1>{props.title}</h1>
 
-            <p>Posted in {dateFormatter.format(props.postTime * 1000)}</p>
-        </Banner>
+                {props.description ? (
+                    <p className="major">{props.description}</p>
+                ) : null}
+
+                <p>Posted in {dateFormatter.format(props.postTime * 1000)}</p>
+            </Banner>
+        </>
     );
 }

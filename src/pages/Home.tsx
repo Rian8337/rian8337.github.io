@@ -34,6 +34,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Item } from "../structures/Item";
 import NewTabLink from "../components/NewTabLink";
+import Head from "../components/Head";
 
 const projectItems: Item[] = [
     {
@@ -207,6 +208,11 @@ export default function Home() {
 
     return (
         <>
+            <Head
+                title="Home - Rian's Blog"
+                description="The homepage of Rian's blog."
+            />
+
             <Banner
                 style={BannerStyle.style1}
                 imageUrl="images/header.jpg"

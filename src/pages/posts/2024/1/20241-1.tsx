@@ -12,7 +12,9 @@ export default function Post202401_1() {
         <Wrapper style={WrapperStyle.style1}>
             <PostHeader
                 title="First Post!"
+                websiteTitle="First Post!"
                 description="My first post!"
+                websiteDescription="Rian's first post!"
                 imageUrl={`${baseImagePath}myself.jpg`}
                 postTime={1705224583}
             />

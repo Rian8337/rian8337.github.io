@@ -6,6 +6,7 @@ import { WrapperStyle } from "../constants/wrapper/WrapperStyle";
 import NotFound from "./NotFound";
 import PostHistoryLoading from "../components/post/PostHistoryLoading";
 import { WrapperInnerSize } from "../constants/wrapper/WrapperInnerSize";
+import Head from "../components/Head";
 
 const lazyLoadHistory = (year: number, month: number) =>
     lazy(async () => {
@@ -24,16 +25,26 @@ const History20241 = lazyLoadHistory(2024, 1);
 
 export default function PostList() {
     return (
-        <Wrapper style={WrapperStyle.style1} textAlign={TextAlignment.center}>
-            <WrapperInner size={WrapperInnerSize.small}>
-                <h2>Posts</h2>
+        <>
+            <Head
+                title="Posts - Rian's Blog"
+                description="A history of posts that Rian has made so far."
+            />
 
-                <p>A history of posts that I have made so far.</p>
+            <Wrapper
+                style={WrapperStyle.style1}
+                textAlign={TextAlignment.center}
+            >
+                <WrapperInner size={WrapperInnerSize.small}>
+                    <h2>Posts</h2>
 
-                <Suspense fallback={<PostHistoryLoading />}>
-                    <History20241 />
-                </Suspense>
-            </WrapperInner>
-        </Wrapper>
+                    <p>A history of posts that I have made so far.</p>
+
+                    <Suspense fallback={<PostHistoryLoading />}>
+                        <History20241 />
+                    </Suspense>
+                </WrapperInner>
+            </Wrapper>
+        </>
     );
 }
