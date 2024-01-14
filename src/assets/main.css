@@ -8945,6 +8945,10 @@ body.is-preload .items.onload-fade-in > * > .inner {
     border-top: solid 0.15rem rgb(200, 200, 200);
 }
 
+.drawer > p.navigation:last-child {
+    border-bottom: solid 0.15rem rgb(200, 200, 200);
+}
+
 .drawer > p.navigation:hover {
     background-color: rgb(200, 200, 200);
     cursor: pointer;
