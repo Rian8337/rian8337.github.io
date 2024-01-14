@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Drawer from "./components/drawer/Drawer";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-import Post from "./pages/Post";
+import PostPage from "./pages/PostPage";
 import PostList from "./pages/PostList";
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
                     <Route path="/posts" element={<PostList />} />
                     <Route
                         path="/post/:year/:month/:index"
-                        element={<Post />}
+                        element={<PostPage />}
                     />
                     <Route path="*" element={<NotFound />} />
                 </Routes>

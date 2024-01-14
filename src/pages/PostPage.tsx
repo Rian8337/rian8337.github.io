@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import NotFound from "./NotFound";
 import PostLoading from "../components/post/PostLoading";
 
-export default function Post() {
+export default function PostPage() {
     const { year, month, index } = useParams();
 
     if (!year || !month || !index) {
