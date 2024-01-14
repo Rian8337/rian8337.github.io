@@ -15,7 +15,7 @@ export default function PostPage() {
             const importedPost = (await import(
                 `./posts/${parseInt(year)}/${parseInt(month)}/${parseInt(
                     year
-                )}${parseInt(month)}-${parseInt(index)}.tsx`
+                )}-${parseInt(month)}-${parseInt(index)}.tsx`
             )) as { default: FunctionComponent };
 
             return importedPost;

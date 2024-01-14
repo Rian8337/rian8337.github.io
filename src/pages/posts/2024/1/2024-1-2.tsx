@@ -1,7 +1,7 @@
 import NewTabLink from "../../../../components/NewTabLink";
 import Post from "../../../../components/post/Post";
 
-export default function Post20241_2() {
+export default function Post2024_1_2() {
     const title = "A visit to NALI 2023 in Universiti Teknologi Malaysia";
     const description =
         "Reflection about a visit to NALI 2023 in Universiti Teknologi Malaysia";

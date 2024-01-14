@@ -12,7 +12,7 @@ const lazyLoadHistory = (year: number, month: number) =>
     lazy(async () => {
         try {
             const importedPost = (await import(
-                `./posts/${year}/${month}/PostHistory${year}${month}.tsx`
+                `./posts/${year}/${month}/PostHistory${year}-${month}.tsx`
             )) as { default: FunctionComponent };
 
             return importedPost;
