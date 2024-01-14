@@ -1,7 +1,7 @@
 import NewTabLink from "../../../../components/NewTabLink";
 import Post from "../../../../components/post/Post";
 
-export default function Post202401_1() {
+export default function Post20241_1() {
     return (
         <Post
             title="First Post!"
