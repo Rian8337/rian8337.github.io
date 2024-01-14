@@ -8896,13 +8896,12 @@ body.is-preload .items.onload-fade-in > * > .inner {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 150;
     top: 0;
-    right: 0;
+    left: 0;
 }
 
 .drawer {
     position: fixed;
     top: 0;
-    left: -125%;
     width: 20%;
     background-color: white;
     z-index: 200;
