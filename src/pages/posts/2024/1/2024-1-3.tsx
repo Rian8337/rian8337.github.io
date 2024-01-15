@@ -20,24 +20,21 @@ export default function Post2024_1_3() {
                 <h2>Overview</h2>
                 <p>
                     In November 14, 2023, I attended an industrial talk that
-                    talks about various of ICT jobs that were available in
+                    talked about various Information and Communication
+                    Technology (ICT) jobs that were available in{" "}
                     <NewTabLink href="https://www.claritytech.sg/">
                         Clarity Techworks Sdn Bhd
                     </NewTabLink>
                     .
                 </p>
                 <p>
-                    Clarity Techworks Sdn Bhd is a FinTech Solution company that
-                    focused on blockchain technologies. This industrial talk
-                    introduced 5 Information and Communication Technology (ICT)
-                    jobs that were available in the company:
+                    Clarity Techworks is a FinTech Solution company that focused
+                    on blockchain technologies. This industrial talk introduced
+                    4 ICT jobs that were available in the company:
                     <UnorderedList>
                         <span>
                             QA (Quality Assurance) Testing Analyst, represented
                             by Ms. Liyana
-                        </span>
-                        <span>
-                            Chief Technology Officer, represented by Mr. Yee
                         </span>
                         <span>UI/UX Designer, represented by Ms. Syarifah</span>
                         <span>
@@ -48,6 +45,7 @@ export default function Post2024_1_3() {
                             Saiful
                         </span>
                     </UnorderedList>
+                    In this post, I will summarize the talk of each person.
                 </p>
             </section>
 
@@ -292,10 +290,10 @@ export default function Post2024_1_3() {
                 <h2>Android Developer (Mr. Ridwan)</h2>
 
                 <p>
-                    According to Mr. Ridwan, an Android developer develops the
-                    application that will be used in Android devices. They
-                    implement new features, do research, fix bugs, write
-                    documentation, improve code quality, and publish
+                    According to Mr. Ridwan, an Android developer is responsible
+                    for developing the application that will be used in Android
+                    devices. They implement new features, do research, fix bugs,
+                    write documentation, improve code quality, and publish
                     applications to the Google Play Store.
                 </p>
 
@@ -385,7 +383,7 @@ export default function Post2024_1_3() {
                         </span>
                         <span>Make connections</span>
                     </UnorderedList>
-                    <div className="align-right">- Mr. Ridwan</div>
+                    <div className="align-right">Mr. Ridwan</div>
                 </BlockQuote>
             </section>
 
@@ -394,9 +392,9 @@ export default function Post2024_1_3() {
 
                 <p>
                     Mr. Saiful started his career as a Bachelor of Computer
-                    Science (Network and Security) at Universiti Teknologi
-                    Malaysia (UTM) and graduated in 2023. He joined Clarity
-                    Techworks at November 10, 2023 as a web developer.
+                    Science (Network and Security) in UTM and graduated in 2023.
+                    He joined Clarity Techworks at November 10, 2023 as a web
+                    developer.
                 </p>
 
                 <h3>Job Scope</h3>
@@ -511,8 +509,148 @@ export default function Post2024_1_3() {
                         <span>Learn from mistakes</span>
                     </UnorderedList>
                 </p>
+            </section>
 
-                {/* TODO: complete this */}
+            <section>
+                <h2>Web/API Developer (Ms. Izzah)</h2>
+
+                <p>
+                    Ms. Izzah is a Bachelor of Computer Science (Software
+                    Engineering) November 2023 graduate from UTM. She joined
+                    Clarity Techworks at September 11, 2023 for a 2-month
+                    probation period and officially accepted at November 10,
+                    2023 as a junior web/API developer.
+                </p>
+
+                <p>
+                    During her probation period, she get to know the company and
+                    her colleagues. She also get to familiarize herself with the
+                    technologies that were used in the company, including (but
+                    not limited to) frameworks and programming languages.
+                </p>
+
+                <h3>Job Scope</h3>
+
+                <p>
+                    As a junior/web API developer, Ms. Izzah was responsible
+                    for:
+                    <UnorderedList>
+                        <span>Develop and enhance web applications</span>
+                        <span>Integrate UI design based on server logic</span>
+                        <span>Maintain system documentation</span>
+                    </UnorderedList>
+                </p>
+
+                <h3>Technology Stack</h3>
+
+                <p>
+                    Ms. Izzah worked with{" "}
+                    <NewTabLink href="https://laravel.com/">Laravel</NewTabLink>{" "}
+                    as a backend framework to communicate with the database. She
+                    also used{" "}
+                    <NewTabLink href="https://inertiajs.com/">
+                        Inertia
+                    </NewTabLink>{" "}
+                    as a tool for building the frontend in{" "}
+                    <NewTabLink href="https://vuejs.org/">Vue</NewTabLink>.
+                </p>
+
+                <h3>Tools</h3>
+
+                <p>
+                    Throughout her work, Ms. Izzah used the following tools:
+                    <UnorderedList>
+                        <span>Visual Studio Code as the code editor</span>
+                        <span>
+                            Sequel Ace as the database management system
+                        </span>
+                        <span>Sourcetree for version control system</span>
+                        <span>Figma for UI/UX design</span>
+                        <span>
+                            Jira for agile management tool and Continuous
+                            Integration (CI)/Continuous Deployment (CD)
+                        </span>
+                        <span>
+                            <NewTabLink href="https://www.atlassian.com/software/confluence">
+                                Confluence
+                            </NewTabLink>{" "}
+                            as a documentation tool
+                        </span>
+                    </UnorderedList>
+                </p>
+
+                <h3>Life at work vs study</h3>
+
+                <p>
+                    According to Ms. Izzah, time management at work is more
+                    important than studies as she has more responsibilities to
+                    take care of. Additionally, work is the time where
+                    theoretical foundations that were learned during studies are
+                    applied. The emphasis of work is on applying practical
+                    knowledge to address real-time challenges.
+                    <br />
+                    She also added that we become more pressurized by real-time
+                    challenges at work compared to studies.
+                </p>
+
+                <h3>Important Skills</h3>
+
+                <p>
+                    Ms. Izzah emphasized the following skills to work on the
+                    world of web/API development:
+                    <UnorderedList>
+                        <span>
+                            Being familiar with multiple programming languages
+                        </span>
+                        <span>
+                            Being familiar with multiple frameworks and
+                            libraries
+                        </span>
+                        <span>Knowing how to use a version control system</span>
+                        <span>Creating responsive designs</span>
+                        <span>Testing and debugging</span>
+                        <span>
+                            Collaboration and communication between colleagues
+                        </span>
+                    </UnorderedList>
+                </p>
+
+                <BlockQuote>
+                    If you fall, dare to rise again.
+                    <div className="align-right">Ms. Izzah</div>
+                </BlockQuote>
+            </section>
+
+            <section>
+                <h2>Remarks</h2>
+
+                <p>
+                    For me, this industrial talk was important to get to know
+                    more about the kinds of ICT jobs that are available out
+                    there. Not only that, this industrial talk gave me a chance
+                    to directly ask those who were already working in the field,
+                    which was a rare occasion when I was not actively looking
+                    for such people.
+                </p>
+
+                <p>
+                    I was able to learn how each job plays a role in the
+                    company, and the skills needed to excel in each job
+                    respectively. Moreover, there were two important aspects to
+                    be mentioned: hard work and communication. Without hard
+                    work, you will not be able to reach a higher level of a
+                    certain position, and without communication, you will not be
+                    able to work in teams, which is very important in companies
+                    where you may have hundreds of colleagues working in the
+                    same project.
+                </p>
+
+                <p>
+                    A big thank you to Ms. Liyana, Ms. Syarifah, Mr. Saiful, Mr.
+                    Ridwan, and Ms. Izzah for spending some of their time to
+                    share their experience to me. I look forward to hearing more
+                    work experiences in the future.
+                </p>
             </section>
         </Post>
     );
