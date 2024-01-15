@@ -363,6 +363,11 @@ export default function Post2024_1_4() {
 
                 <h3>UTM Data Center</h3>
 
+                <Image
+                    src={`${baseImagePath}utm-data-center.png`}
+                    alignment={ImageAlignment.fit}
+                />
+
                 <p>
                     The UTM data center was rebuilt in 2019. It is powered by 2
                     generator sets that provides 72 hours of power backup should
