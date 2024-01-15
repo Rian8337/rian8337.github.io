@@ -47,8 +47,8 @@ export default function Post2024_1_4() {
                 <h2>Speakers</h2>
 
                 <p>
-                    The talk involved six sessions, where a representative will
-                    share their experience in working in UTMDigital. These
+                    The talk involved six sessions, where a representative
+                    shared their experience in working in UTMDigital. These
                     sessions were the following:
                 </p>
 
