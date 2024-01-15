@@ -274,9 +274,11 @@ export default function Home() {
             >
                 <h2>A visit to NALI 2023 in Universiti Teknologi Malaysia</h2>
                 <p>
-                    I visited the NALI 2023 event in Universiti Teknologi
-                    Malaysia at Johor Bahru! Here is the summary and my
-                    thoughts.
+                    I visited the NALI 2023 event in{" "}
+                    <NewTabLink href="https://www.utm.my">
+                        Universiti Teknologi Malaysia
+                    </NewTabLink>{" "}
+                    at Johor Bahru! Here is the summary and my thoughts.
                 </p>
 
                 <Actions
