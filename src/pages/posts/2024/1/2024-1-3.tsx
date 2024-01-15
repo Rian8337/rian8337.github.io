@@ -10,7 +10,7 @@ export default function Post2024_1_3() {
     return (
         <Post
             title={title}
-            websiteTitle={title}
+            websiteTitle={`${title} - ${description}`}
             description={description}
             websiteDescription={description}
             headerImageUrl="images/posts/2024/1/3/poster.png"
