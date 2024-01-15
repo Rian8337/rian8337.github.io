@@ -60,7 +60,7 @@ export default function Post2024_1_3() {
                     and graduated in September 2020. After she graduated, she
                     did freelance work until February 2021, where she shifted to
                     be a junior software developer working with Unity 3D. From
-                    October 2022 until now, she work as a QA testing analyst at
+                    October 2022 until now, she works as a QA testing analyst at
                     Clarity Techworks.
                 </p>
 
