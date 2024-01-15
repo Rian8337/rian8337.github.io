@@ -64,7 +64,7 @@ export default function Post2024_1_4() {
                                     key={0}
                                     href="https://digital.utm.my/division-of-digital-architecture/"
                                 >
-                                    Division of Digital Architecture
+                                    Digital Architecture
                                 </NewTabLink>,
                             ]}
                         />
@@ -72,14 +72,14 @@ export default function Post2024_1_4() {
                             columns={[
                                 "Digital Infrastructure of UTMDigital",
                                 "Ts. Mr. Mohammed bin Mohd Hasni",
-                                "Division of Digital Architecture",
+                                "Digital Architecture",
                             ]}
                         />
                         <TableRow
                             columns={[
                                 "UTM Network",
                                 "Mr. Mohd Hamri bin Yusuf and Ts. Mr. Khairul Nizam bin Md Razali",
-                                "Division of Digital Architecture",
+                                "Digital Architecture",
                             ]}
                         />
                         <TableRow
@@ -90,7 +90,7 @@ export default function Post2024_1_4() {
                                     key={3}
                                     href="https://digital.utm.my/division-of-digital-strategy/"
                                 >
-                                    Division of Digital Strategy
+                                    Digital Strategy
                                 </NewTabLink>,
                             ]}
                         />
@@ -102,7 +102,7 @@ export default function Post2024_1_4() {
                                     key={4}
                                     href="https://digital.utm.my/division-of-digital-innovation/"
                                 >
-                                    Division of Digital Innovation
+                                    Digital Innovation
                                 </NewTabLink>,
                             ]}
                         />
@@ -110,7 +110,7 @@ export default function Post2024_1_4() {
                             columns={[
                                 "Issue of System Development",
                                 "Mr. Helmee bin Yaacob",
-                                "Division of Digital Innovation",
+                                "Digital Innovation",
                             ]}
                         />
                     </TableBody>
