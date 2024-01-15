@@ -226,7 +226,7 @@ export default function Home() {
                 <h1>About Me</h1>
 
                 <p className="major">
-                    Hello! I am Rian. Currently studying at Malaysia, I maintain
+                    Hello! I am Rian. Currently studying in Malaysia, I maintain
                     a couple of projects as a side interest. Come take a look at
                     my journey so far!
                 </p>
