@@ -265,7 +265,7 @@ export default function Home() {
             </Spotlight>
 
             <Spotlight
-                style={SpotlightStyle.style2}
+                style={SpotlightStyle.style1}
                 imageUrl="images/posts/2024/1/2/poster.png"
                 orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
