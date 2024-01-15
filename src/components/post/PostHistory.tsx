@@ -6,6 +6,7 @@ import TableRow from "../table/TableRow";
 import Wrapper from "../wrapper/Wrapper";
 import { MonthNumber } from "../../structures/MonthNumber";
 import TableBody from "../table/TableBody";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
     /**
@@ -28,6 +29,7 @@ interface Props {
  * Represents a post history.
  */
 export default function PostHistory(props: Props) {
+    const navigate = useNavigate();
     let month = "";
 
     switch (props.month) {
@@ -81,14 +83,18 @@ export default function PostHistory(props: Props) {
                         <TableRow
                             key={i}
                             columns={[
-                                <a
+                                <span
                                     key={props.titles.length - i}
-                                    href={`/post/${props.year}/${props.month}/${
-                                        props.titles.length - i
-                                    }`}
+                                    onClick={() => {
+                                        navigate(
+                                            `/post/${props.year}/${
+                                                props.month
+                                            }/${props.titles.length - i}`
+                                        );
+                                    }}
                                 >
                                     {title}
-                                </a>,
+                                </span>,
                             ]}
                         />
                     ))}
