@@ -234,8 +234,48 @@ export default function Home() {
 
             <Spotlight
                 style={SpotlightStyle.style1}
-                imageUrl="images/posts/2024/1/3/poster.png"
+                imageUrl="images/posts/2024/1/4/poster.jpg"
                 orientation={SpotlightOrientation.right}
+                contentAlignment={SpotlightContentAlignment.left}
+                imagePosition={SpotlightImagePosition.center}
+                onscrollImage={SpotlightOnscrollImage.fadeIn}
+            >
+                <h2>
+                    UTMDigital - Universiti Teknologi Malaysia&apos;s Digital
+                    University Driver
+                </h2>
+                <p>
+                    In December 5, 2023, I attended a virtual talk that talked
+                    about{" "}
+                    <NewTabLink href="https://digital.utm.my/">
+                        UTMDigital
+                    </NewTabLink>
+                    ,{" "}
+                    <NewTabLink href="https://www.utm.my">
+                        Universiti Teknologi Malaysia
+                    </NewTabLink>
+                    &apos;s primary driver towards a digital university. Here is
+                    a summary of what I learned!
+                </p>
+
+                <Actions
+                    stacked
+                    actions={[
+                        <Button
+                            key={0}
+                            label="Read more"
+                            onClick={() => {
+                                navigate("/post/2024/1/4");
+                            }}
+                        />,
+                    ]}
+                />
+            </Spotlight>
+
+            <Spotlight
+                style={SpotlightStyle.style1}
+                imageUrl="images/posts/2024/1/3/poster.png"
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -267,7 +307,7 @@ export default function Home() {
             <Spotlight
                 style={SpotlightStyle.style1}
                 imageUrl="images/posts/2024/1/2/poster.png"
-                orientation={SpotlightOrientation.left}
+                orientation={SpotlightOrientation.right}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -298,7 +338,7 @@ export default function Home() {
             <Spotlight
                 style={SpotlightStyle.style2}
                 imageUrl="images/posts/2024/1/1/myself.jpg"
-                orientation={SpotlightOrientation.right}
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
