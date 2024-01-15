@@ -144,7 +144,7 @@ export default function Post2024_1_4() {
                     </OrderedList>
                     In essence, UTMDigital is the digital university driver that
                     plays a role in empowering the delivery of ICT services by
-                    adapting the use of the latest technology so that UTM staff
+                    adapting the use of the latest technology, so that UTM staff
                     and students can experience and enjoy digital lifestyle with
                     high-performance delivery.
                 </p>
@@ -169,8 +169,8 @@ export default function Post2024_1_4() {
 
                 <p>
                     UTMID is a unique identification (ID) assigned to a user to
-                    authenticate a user before accessing UTM network and ICT
-                    applications and services including UTMWiFi, MyUTM portal,
+                    authenticate them before accessing UTM network and ICT
+                    applications and services, including UTMWiFi, MyUTM portal,
                     and UTMSmart. It is only available for registered students.
                     It is also used as an official email ID for students in the
                     form of <code>{`{utmid}`}@graduate.utm.my</code>. This email
@@ -531,8 +531,8 @@ export default function Post2024_1_4() {
                     UTMWiFi covers 100% of UTM&apos;s area, including but not
                     limited to service buildings, student hostels, faculties and
                     schools, and more. However, in some locations, especially in
-                    student hostels, the signal can be weak. This is planned to
-                    be improved in the future.
+                    student hostels, the signal of wireless connections can be
+                    weak. This is planned to be improved in the future.
                 </p>
 
                 <Image
