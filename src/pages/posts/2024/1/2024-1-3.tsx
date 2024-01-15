@@ -14,7 +14,7 @@ export default function Post2024_1_3() {
             description={description}
             websiteDescription={description}
             headerImageUrl="images/posts/2024/1/3/poster.png"
-            postTime={Date.now() / 1000}
+            postTime={1705290017}
         >
             <section>
                 <h2>Overview</h2>
