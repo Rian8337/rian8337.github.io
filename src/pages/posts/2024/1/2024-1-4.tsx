@@ -207,12 +207,37 @@ export default function Post2024_1_4() {
                     UTM works with various companies to provide licensed
                     software for students, such as:
                     <UnorderedList>
-                        <span>Mathematica</span>
-                        <span>NVIVO 2022</span>
-                        <span>Microsoft 365</span>
-                        <span>IBM SPSS Statistics</span>
-                        <span>Matlab</span>
-                        <span>EndNote</span>
+                        <span>
+                            <NewTabLink href="https://www.wolfram.com/mathematica/">
+                                Mathematica
+                            </NewTabLink>
+                        </span>
+                        <span>
+                            <NewTabLink href="https://lumivero.com/products/nvivo/">
+                                NVivo
+                            </NewTabLink>{" "}
+                            2022
+                        </span>
+                        <span>
+                            <NewTabLink href="https://www.microsoft.com/en-us/microsoft-365">
+                                Microsoft 365
+                            </NewTabLink>
+                        </span>
+                        <span>
+                            <NewTabLink href="https://www.ibm.com/spss">
+                                IBM SPSS
+                            </NewTabLink>
+                        </span>
+                        <span>
+                            <NewTabLink href="https://matlab.mathworks.com/">
+                                Matlab
+                            </NewTabLink>
+                        </span>
+                        <span>
+                            <NewTabLink href="https://endnote.com/?language=en">
+                                EndNote
+                            </NewTabLink>
+                        </span>
                     </UnorderedList>
                     These applications can be accessed from MyUTM portal in
                     Software Center.
