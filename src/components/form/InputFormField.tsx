@@ -29,7 +29,6 @@ export default function InputFormField(props: Props) {
             type={props.type}
             name={props.name ?? props.id}
             id={props.id}
-            value=""
             checked={props.checked}
         />
     );
