@@ -8,6 +8,11 @@ interface Props {
      * The function to run after the form is submitted.
      */
     readonly onSubmit: FormEventHandler<HTMLFormElement>;
+
+    /**
+     * The value of the submit button.
+     */
+    readonly submitButtonValue: string;
 }
 
 /**
@@ -18,7 +23,7 @@ export default function Form(props: PropsWithChildren<Props>) {
         <motion.form {...defaultAnimationProps} onSubmit={props.onSubmit}>
             <div className="fields">{props.children}</div>
 
-            <FormSubmitButton value="Send Message" />
+            <FormSubmitButton value={props.submitButtonValue} />
         </motion.form>
     );
 }
