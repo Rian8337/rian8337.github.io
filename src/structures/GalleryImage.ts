@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 /**
  * Represents an image in the gallery section.
  */
@@ -15,10 +17,10 @@ export interface GalleryImage {
     /**
      * The caption title of the image.
      */
-    readonly captionTitle: string;
+    readonly captionTitle: ReactNode;
 
     /**
      * The caption description of the image.
      */
-    readonly captionDescription: string;
+    readonly captionDescription: ReactNode;
 }
