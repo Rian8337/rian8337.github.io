@@ -234,6 +234,9 @@ export default {
         // Call initialize.
         options.onInitialize?.();
 
+        // Call handler once to check if the element has actually entered the area without scrolling.
+        queue.handler(scrollY);
+
         return queue.id;
     },
 
