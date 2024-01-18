@@ -38,7 +38,7 @@ export default function App() {
 
             clearTimeout(preloadTimeout);
         };
-    });
+    }, []);
 
     return (
         <>
