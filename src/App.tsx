@@ -8,8 +8,6 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import PostPage from "./pages/PostPage";
 import PostList from "./pages/PostList";
-import DummyLogin from "./pages/DummyLogin";
-import DummyPrivacyPolicy from "./pages/DummyPrivacyPolicy";
 
 export default function App() {
     return (
@@ -24,11 +22,6 @@ export default function App() {
                     <Route
                         path="/post/:year/:month/:index"
                         element={<PostPage />}
-                    />
-                    <Route path="/login" element={<DummyLogin />} />
-                    <Route
-                        path="/privacy-policy"
-                        element={<DummyPrivacyPolicy />}
                     />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
