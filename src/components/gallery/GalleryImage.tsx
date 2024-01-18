@@ -51,7 +51,7 @@ export default function GalleryImage(props: Props) {
                     actions={[
                         <Button
                             key={0}
-                            label="Details"
+                            label="Enlarge"
                             size={ButtonSize.small}
                         />,
                     ]}
