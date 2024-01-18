@@ -32,18 +32,16 @@ export default function Post2024_1_3() {
                     on blockchain technologies. This industrial talk introduced
                     4 ICT jobs that were available in the company:
                     <UnorderedList>
-                        <span>
+                        <>
                             QA (Quality Assurance) Testing Analyst, represented
                             by Ms. Liyana
-                        </span>
-                        <span>UI/UX Designer, represented by Ms. Syarifah</span>
-                        <span>
-                            Android Developer, represented by Mr. Ridwan
-                        </span>
-                        <span>
+                        </>
+                        <>UI/UX Designer, represented by Ms. Syarifah</>
+                        <>Android Developer, represented by Mr. Ridwan</>
+                        <>
                             Web Developer, represented by Ms. Izzah and Mr.
                             Saiful
-                        </span>
+                        </>
                     </UnorderedList>
                     In this post, I will summarize the talk of each person.
                 </p>
@@ -68,21 +66,21 @@ export default function Post2024_1_3() {
                 <p>
                     As a QA testing analyst, Ms. Liyana was responsible for:
                     <UnorderedList>
-                        <span>
+                        <>
                             Ensuring that software or products meet certain
                             quality standards before they are released to
                             production
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Test and identify issues or bugs in the product to
                             make sure it works correctly and meets the
                             requirements
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Act as the last line of defense for software or
                             products to be free from any major bugs for users to
                             use and have a great experience
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -90,7 +88,7 @@ export default function Post2024_1_3() {
                 <p>
                     Ms. Liyana&apos;s day-to-day tasks were:
                     <UnorderedList>
-                        <span>
+                        <>
                             Documentation
                             <li>
                                 Create test cases that outline the testing
@@ -100,15 +98,15 @@ export default function Post2024_1_3() {
                                 Helps in tracking the testing progress and
                                 provides a reference for future testing
                             </li>
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Testing
                             <br />
                             Using the test cases created as guidelines - to do
                             testing on the product to test its functionality,
                             performance, and security
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Bug Reporting
                             <li>
                                 Create bug reports if there are any issues or
@@ -118,7 +116,7 @@ export default function Post2024_1_3() {
                                 Forward bug reports to the development team so
                                 that they can fix the bugs
                             </li>
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -128,32 +126,32 @@ export default function Post2024_1_3() {
                     Ms. Syarifah emphasized 4 skills that are needed as a QA
                     testing analyst, namely:
                     <UnorderedList>
-                        <span>
+                        <>
                             Analytical skills
                             <br />
                             Needed to analyze software requirements, identify
                             potential issues, and think critically to develop
                             effective test cases
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Documentation skills
                             <br />
                             Help in creating test plans, test cases, and bug
                             reports
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Time management
                             <br />
                             Often work on tight schedules - effective time
                             management ensures that testing activities are
                             completed within the timeline
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Attention to detail
                             <br />
                             Requires a meticulous approach to catch even the
                             smallest bugs
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -163,11 +161,11 @@ export default function Post2024_1_3() {
                     Ms. Liyana shared an additional insight regarding work life
                     compared to university life. These comparisons were brought:
                     <UnorderedList>
-                        <span>
+                        <>
                             She can make mistakes, but more limited in work life
                             compared to university life
-                        </span>
-                        <span>More independency is needed in work life</span>
+                        </>
+                        <>More independency is needed in work life</>
                     </UnorderedList>
                 </p>
 
@@ -201,11 +199,11 @@ export default function Post2024_1_3() {
                     The UI/UX design team at Clarity Techworks consisted of 3
                     people including Ms. Syarifah, namely:
                     <UnorderedList>
-                        <span>Ms. Lau Yiwen as the lead of the team</span>
-                        <span>
+                        <>Ms. Lau Yiwen as the lead of the team</>
+                        <>
                             Ms. Aishah as a junior UI/UX designer alongside Ms.
                             Syarifah
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -215,31 +213,31 @@ export default function Post2024_1_3() {
                     In Ms. Syarifah&apos;s day-to-day operations, she utilized
                     software such as:
                     <UnorderedList>
-                        <span>
+                        <>
                             <NewTabLink href="https://www.figma.com/">
                                 Figma
                             </NewTabLink>{" "}
                             as primary design tool
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://slack.com/">
                                 Slack
                             </NewTabLink>{" "}
                             as a communication platform
-                        </span>
-                        <span>
+                        </>
+                        <>
                             {" "}
                             <NewTabLink href="https://phrase.com/">
                                 Phrase
                             </NewTabLink>{" "}
                             to manage localizations
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://postmarkapp.com/">
                                 Postmark
                             </NewTabLink>{" "}
                             for email delivery service
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -248,12 +246,12 @@ export default function Post2024_1_3() {
                 <p>
                     A UI/UX designer&apos;s job revolves around:
                     <UnorderedList>
-                        <span>UI/UX research</span>
-                        <span>Building information architecture</span>
-                        <span>Wireframing and prototyping</span>
-                        <span>Testing and iteration</span>
-                        <span>Handing off designs to developers</span>
-                        <span>Creating phrase keys and pull translations</span>
+                        <>UI/UX research</>
+                        <>Building information architecture</>
+                        <>Wireframing and prototyping</>
+                        <>Testing and iteration</>
+                        <>Handing off designs to developers</>
+                        <>Creating phrase keys and pull translations</>
                     </UnorderedList>
                 </p>
 
@@ -263,11 +261,11 @@ export default function Post2024_1_3() {
                     Ms. Syarifah emphasized a few important skills to dive into
                     a UI/UX designer position, namely:
                     <UnorderedList>
-                        <span>Creative thinking</span>
-                        <span>Problem solving</span>
-                        <span>Communication</span>
-                        <span>Punctuality</span>
-                        <span>Attention to detail</span>
+                        <>Creative thinking</>
+                        <>Problem solving</>
+                        <>Communication</>
+                        <>Punctuality</>
+                        <>Attention to detail</>
                     </UnorderedList>
                 </p>
 
@@ -277,11 +275,11 @@ export default function Post2024_1_3() {
                     Ms. Syarifah gave a few tips and advice to dive into the
                     world of UI/UX design, such as:
                     <UnorderedList>
-                        <span>Building a strong foundation</span>
-                        <span>Creating our own portfolio</span>
-                        <span>Connecting with other UI/UX designers</span>
-                        <span>Start making small designs</span>
-                        <span>Be persistent</span>
+                        <>Building a strong foundation</>
+                        <>Creating our own portfolio</>
+                        <>Connecting with other UI/UX designers</>
+                        <>Start making small designs</>
+                        <>Be persistent</>
                     </UnorderedList>
                 </p>
             </section>
@@ -303,49 +301,49 @@ export default function Post2024_1_3() {
                     In Mr. Ridwan&apos;s day-to-day operations, he utilized
                     technologies such as:
                     <UnorderedList>
-                        <span>
+                        <>
                             <NewTabLink href="https://developer.android.com/studio">
                                 Android Studio
                             </NewTabLink>{" "}
                             to develop the application
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://developer.android.com/distribute/console">
                                 Google Play Console
                             </NewTabLink>{" "}
                             to publish the application to the Google Play Store
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://console.firebase.google.com/">
                                 Firebase Console
                             </NewTabLink>{" "}
                             to monitor application crashes and send
                             notifications
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://bugfender.com/">
                                 Bugfender
                             </NewTabLink>{" "}
                             to oversee user application behavior
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://phrase.com/">
                                 Phrase
                             </NewTabLink>{" "}
                             to manage localizations for the application
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://www.postman.com/">
                                 Postman
                             </NewTabLink>{" "}
                             to check API-related information
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://bitbucket.org/product">
                                 Bitbucket
                             </NewTabLink>{" "}
                             as the version control system
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -355,33 +353,31 @@ export default function Post2024_1_3() {
                     Mr. Ridwan emphasized four essential skills to dive into
                     Android development, namely:
                     <UnorderedList>
-                        <span>
+                        <>
                             Analysis, capable of identifying the flow of the
                             code
-                        </span>
-                        <span>
-                            Creativity, capable of writing high quality code
-                        </span>
-                        <span>
+                        </>
+                        <>Creativity, capable of writing high quality code</>
+                        <>
                             Communication, capable of making a non-technical
                             colleague understand
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Search proficiency, capable of differentiating
                             between important and non-important information
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
                 <BlockQuote>
                     If I could go back in time, I would...
                     <UnorderedList>
-                        <span>Learn from someone smarter</span>
-                        <span>
+                        <>Learn from someone smarter</>
+                        <>
                             Start developing software and publishing it to
                             GitHub
-                        </span>
-                        <span>Make connections</span>
+                        </>
+                        <>Make connections</>
                     </UnorderedList>
                     <div className="align-right">Mr. Ridwan</div>
                 </BlockQuote>
@@ -402,15 +398,15 @@ export default function Post2024_1_3() {
                 <p>
                     As a web/API developer, Mr. Saiful was responsible for:
                     <UnorderedList>
-                        <span>Produce API for internal and external use</span>
-                        <span>
+                        <>Produce API for internal and external use</>
+                        <>
                             Troubleshoot and provide solutions to problems in
                             backend
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Create and manage the company&apos;s web
                             applications
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -420,33 +416,33 @@ export default function Post2024_1_3() {
                     In Mr. Saiful&apos;s day-to-day operations, he used the
                     following technologies:
                     <UnorderedList>
-                        <span>
+                        <>
                             <NewTabLink href="https://code.visualstudio.com/">
                                 Visual Studio Code
                             </NewTabLink>{" "}
                             to write code
-                        </span>
-                        <span>Postman to test API</span>
-                        <span>Bitbucket as version control system</span>
-                        <span>
+                        </>
+                        <>Postman to test API</>
+                        <>Bitbucket as version control system</>
+                        <>
                             <NewTabLink href="https://www.sourcetreeapp.com/">
                                 Sourcetree
                             </NewTabLink>{" "}
                             to manage git branches
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://www.atlassian.com/software/jira">
                                 Jira
                             </NewTabLink>{" "}
                             to distribute tasks
-                        </span>
-                        <span>Slack for communication</span>
-                        <span>
+                        </>
+                        <>Slack for communication</>
+                        <>
                             <NewTabLink href="https://sequel-ace.com/">
                                 Sequel Ace
                             </NewTabLink>{" "}
                             for database management
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -456,27 +452,27 @@ export default function Post2024_1_3() {
                     Mr. Saiful emphasized four skills needed to dive into
                     web/API development, namely:
                     <UnorderedList>
-                        <span>
+                        <>
                             Critical Thinking
                             <br />
                             Analyze situations, evaluate options, and making
                             decisions.
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Continuous Learning
                             <br />
                             Technologies are constantly evolving.
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Attention to detail
                             <br />
                             Avoid tiny errors.
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Creativity
                             <br />
                             Produce good quality frontend.
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -487,13 +483,13 @@ export default function Post2024_1_3() {
                     learned a few things that are different from studies and
                     internship, namely:
                     <UnorderedList>
-                        <span>Working more dynamic and varied</span>
-                        <span>Applying learned knowledge into application</span>
-                        <span>Committing to a rigid schedule</span>
-                        <span>
+                        <>Working more dynamic and varied</>
+                        <>Applying learned knowledge into application</>
+                        <>Committing to a rigid schedule</>
+                        <>
                             Minimizing mistakes that can affect overall
                             organization
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -503,10 +499,10 @@ export default function Post2024_1_3() {
                     Mr. Saiful gave some tips that he wished he had been told
                     earlier in his life:
                     <UnorderedList>
-                        <span>Choose your path wisely</span>
-                        <span>Engage more with people (build connections)</span>
-                        <span>Always be curious (active learning)</span>
-                        <span>Learn from mistakes</span>
+                        <>Choose your path wisely</>
+                        <>Engage more with people (build connections)</>
+                        <>Always be curious (active learning)</>
+                        <>Learn from mistakes</>
                     </UnorderedList>
                 </p>
             </section>
@@ -535,9 +531,9 @@ export default function Post2024_1_3() {
                     As a junior/web API developer, Ms. Izzah was responsible
                     for:
                     <UnorderedList>
-                        <span>Develop and enhance web applications</span>
-                        <span>Integrate UI design based on server logic</span>
-                        <span>Maintain system documentation</span>
+                        <>Develop and enhance web applications</>
+                        <>Integrate UI design based on server logic</>
+                        <>Maintain system documentation</>
                     </UnorderedList>
                 </p>
 
@@ -560,22 +556,20 @@ export default function Post2024_1_3() {
                 <p>
                     Throughout her work, Ms. Izzah used the following tools:
                     <UnorderedList>
-                        <span>Visual Studio Code as the code editor</span>
-                        <span>
-                            Sequel Ace as the database management system
-                        </span>
-                        <span>Sourcetree for version control system</span>
-                        <span>Figma for UI/UX design</span>
-                        <span>
+                        <>Visual Studio Code as the code editor</>
+                        <>Sequel Ace as the database management system</>
+                        <>Sourcetree for version control system</>
+                        <>Figma for UI/UX design</>
+                        <>
                             Jira for agile management tool and Continuous
                             Integration (CI)/Continuous Deployment (CD)
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://www.atlassian.com/software/confluence">
                                 Confluence
                             </NewTabLink>{" "}
                             as a documentation tool
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -599,19 +593,15 @@ export default function Post2024_1_3() {
                     Ms. Izzah emphasized the following skills to work on the
                     world of web/API development:
                     <UnorderedList>
-                        <span>
-                            Being familiar with multiple programming languages
-                        </span>
-                        <span>
+                        <>Being familiar with multiple programming languages</>
+                        <>
                             Being familiar with multiple frameworks and
                             libraries
-                        </span>
-                        <span>Knowing how to use a version control system</span>
-                        <span>Creating responsive designs</span>
-                        <span>Testing and debugging</span>
-                        <span>
-                            Collaboration and communication between colleagues
-                        </span>
+                        </>
+                        <>Knowing how to use a version control system</>
+                        <>Creating responsive designs</>
+                        <>Testing and debugging</>
+                        <>Collaboration and communication between colleagues</>
                     </UnorderedList>
                 </p>
 

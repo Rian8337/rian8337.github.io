@@ -126,21 +126,21 @@ export default function Post2024_1_4() {
                     delivery through a data-driven digital ecosystem. To achieve
                     this, UTMDigital has three core operation functions:
                     <OrderedList>
-                        <span>
+                        <>
                             It develops and implement new features and upgrade
                             existing applications that cover the core business
                             of the university
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Ensures that Information and Communication
                             Technology (ICT) infrastructure is always available
                             to support the application platform developed
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Supports the implementation of digital lifestyles
                             through development of the latest innovation
                             technology
-                        </span>
+                        </>
                     </OrderedList>
                     In essence, UTMDigital is the digital university driver that
                     plays a role in empowering the delivery of ICT services by
@@ -154,14 +154,14 @@ export default function Post2024_1_4() {
                 <p>
                     UTMDigital provides numerous services for students, such as:
                     <OrderedList>
-                        <span>UTMID</span>
-                        <span>Official Email Account</span>
-                        <span>UTM Systems - Student Portal and UTMSmart</span>
-                        <span>UTM Licensed Software</span>
-                        <span>Microsoft 365</span>
-                        <span>Network</span>
-                        <span>ICT Policy</span>
-                        <span>Other information</span>
+                        <>UTMID</>
+                        <>Official Email Account</>
+                        <>UTM Systems - Student Portal and UTMSmart</>
+                        <>UTM Licensed Software</>
+                        <>Microsoft 365</>
+                        <>Network</>
+                        <>ICT Policy</>
+                        <>Other information</>
                     </OrderedList>
                 </p>
 
@@ -207,37 +207,37 @@ export default function Post2024_1_4() {
                     UTM works with various companies to provide licensed
                     software for students, such as:
                     <UnorderedList>
-                        <span>
+                        <>
                             <NewTabLink href="https://www.wolfram.com/mathematica/">
                                 Mathematica
                             </NewTabLink>
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://lumivero.com/products/nvivo/">
                                 NVivo
                             </NewTabLink>{" "}
                             2022
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://www.microsoft.com/en-us/microsoft-365">
                                 Microsoft 365
                             </NewTabLink>
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://www.ibm.com/spss">
                                 IBM SPSS
                             </NewTabLink>
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://matlab.mathworks.com/">
                                 Matlab
                             </NewTabLink>
-                        </span>
-                        <span>
+                        </>
+                        <>
                             <NewTabLink href="https://endnote.com/?language=en">
                                 EndNote
                             </NewTabLink>
-                        </span>
+                        </>
                     </UnorderedList>
                     These applications can be accessed from MyUTM portal in
                     Software Center.
@@ -286,16 +286,16 @@ export default function Post2024_1_4() {
                     In using ICT services, students are subjected to a few
                     policies:
                     <UnorderedList>
-                        <span>
+                        <>
                             They are responsible for their ID and password
                             (UTMID/email/others)
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Their devices must be free of spyware, adware,
                             viruses, and worms before connecting to any UTM
                             network
-                        </span>
-                        <span>
+                        </>
+                        <>
                             They cannot use the services for any of the
                             following:
                             <li>Personal commercial use</li>
@@ -313,7 +313,7 @@ export default function Post2024_1_4() {
                                 cracked games, etc.
                             </li>
                             <li>Any unethical affairs</li>
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -323,39 +323,35 @@ export default function Post2024_1_4() {
                     The department of digital services provide assistance in
                     issues related to:
                     <UnorderedList>
-                        <span>
+                        <>
                             UTMID and email accounts (
                             <code>@graduate.utm.my</code> and{" "}
                             <code>@live.utm.my</code>)
-                        </span>
-                        <span>
-                            Login and access problems to university systems
-                        </span>
-                        <span>Systems technical problems</span>
-                        <span>
-                            Questions about UTM ICT services and features
-                        </span>
-                        <span>
+                        </>
+                        <>Login and access problems to university systems</>
+                        <>Systems technical problems</>
+                        <>Questions about UTM ICT services and features</>
+                        <>
                             User manual for installing university licensed
                             software
-                        </span>
-                        <span>Connecting to UTMWiFi</span>
+                        </>
+                        <>Connecting to UTMWiFi</>
                     </UnorderedList>
                     However, they do not provide assistance for the following
                     issues:
                     <UnorderedList>
-                        <span>Installing university licensed software</span>
-                        <span>
+                        <>Installing university licensed software</>
+                        <>
                             Troubleshoot any problems encountered in university
                             licensed software
-                        </span>
-                        <span>
+                        </>
+                        <>
                             Hardware, operating system (OS), and software
                             support for personal devices such as computers,
                             laptops, or smartphones
-                        </span>
-                        <span>Issues associated with system flow or data</span>
-                        <span>Resetting UTMID password</span>
+                        </>
+                        <>Issues associated with system flow or data</>
+                        <>Resetting UTMID password</>
                     </UnorderedList>
                 </p>
             </section>
@@ -368,21 +364,19 @@ export default function Post2024_1_4() {
                     a way that it supports the whole university, which consists
                     of:
                     <UnorderedList>
-                        <span>
-                            26,507 undergraduate and postgraduate students
-                        </span>
-                        <span>3,773 master students</span>
-                        <span>4,974 Ph.D students</span>
-                        <span>5,389 international students</span>
-                        <span>4,821 staff members</span>
-                        <span>1,592 academicians</span>
-                        <span>1,464 Ph.D academicians</span>
-                        <span>3,229 professional and support staff</span>
-                        <span>
+                        <>26,507 undergraduate and postgraduate students</>
+                        <>3,773 master students</>
+                        <>4,974 Ph.D students</>
+                        <>5,389 international students</>
+                        <>4,821 staff members</>
+                        <>1,592 academicians</>
+                        <>1,464 Ph.D academicians</>
+                        <>3,229 professional and support staff</>
+                        <>
                             202,803 alumni from 98 countries, with 9,250 of them
                             being international alumni and all alumni having 98%
                             graduate employability
-                        </span>
+                        </>
                     </UnorderedList>
                 </p>
 
@@ -431,18 +425,18 @@ export default function Post2024_1_4() {
                     The data center provides a multitude of services for UTM
                     personnels, namely:
                     <UnorderedList>
-                        <span>Virtual Private Servers (VPS)</span>
-                        <span>Cloud Services</span>
-                        <span>Co-location</span>
-                        <span>UTM Private File Sharing Service</span>
-                        <span>Google Workspace for Education</span>
-                        <span>Online VC Facilities</span>
-                        <span>Research Data Repository</span>
-                        <span>Research Data Management</span>
-                        <span>UTM Data Warehouse</span>
-                        <span>eContent for micro credential program</span>
-                        <span>eProctoring support for exams/quizzes</span>
-                        <span>Online VC Facilities for TNL</span>
+                        <>Virtual Private Servers (VPS)</>
+                        <>Cloud Services</>
+                        <>Co-location</>
+                        <>UTM Private File Sharing Service</>
+                        <>Google Workspace for Education</>
+                        <>Online VC Facilities</>
+                        <>Research Data Repository</>
+                        <>Research Data Management</>
+                        <>UTM Data Warehouse</>
+                        <>eContent for micro credential program</>
+                        <>eProctoring support for exams/quizzes</>
+                        <>Online VC Facilities for TNL</>
                     </UnorderedList>
                 </p>
             </section>
@@ -511,14 +505,14 @@ export default function Post2024_1_4() {
                     This infrastructure supports many projects that are running
                     in UTM, such as:
                     <UnorderedList>
-                        <span>Internet</span>
-                        <span>Intranet</span>
-                        <span>CCTV</span>
-                        <span>Face Recognition</span>
-                        <span>LED Billboard</span>
-                        <span>Network Devices</span>
-                        <span>Voice over Internet Protocol (VoIP)</span>
-                        <span>Internet of Things (IoT)</span>
+                        <>Internet</>
+                        <>Intranet</>
+                        <>CCTV</>
+                        <>Face Recognition</>
+                        <>LED Billboard</>
+                        <>Network Devices</>
+                        <>Voice over Internet Protocol (VoIP)</>
+                        <>Internet of Things (IoT)</>
                     </UnorderedList>
                 </p>
 
