@@ -7104,7 +7104,6 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.style2 > .forward:before {
-    content: "\f105";
     right: 0;
 }
 
@@ -7118,7 +7117,6 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.style2 > .backward:before {
-    content: "\f104";
     left: 0;
 }
 

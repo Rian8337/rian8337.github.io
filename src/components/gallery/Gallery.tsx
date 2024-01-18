@@ -11,6 +11,11 @@ import Inner from "../Inner";
 import GalleryImage from "./GalleryImage";
 import { motion } from "framer-motion";
 import defaultAnimationProps from "../../utils/defaultAnimationProps";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faChevronLeft,
+    faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 interface Props extends BaseProps {
     /**
@@ -83,7 +88,7 @@ export default function Gallery(props: Props) {
         number | undefined
     >(undefined);
 
-    function onMouseEnterDirection(event: MouseEvent<HTMLDivElement>) {
+    function onMouseEnterDirection(event: MouseEvent<SVGSVGElement>) {
         const element = event.currentTarget;
         const direction = element.classList.contains("forward") ? 1 : -1;
 
@@ -297,16 +302,20 @@ export default function Gallery(props: Props) {
 
             {!browser.mobile ? (
                 <>
-                    <div
-                        className="forward"
-                        onMouseEnter={onMouseEnterDirection}
-                        onMouseLeave={onMouseLeaveDirection}
-                    ></div>
-                    <div
+                    <FontAwesomeIcon
+                        icon={faChevronLeft}
                         className="backward"
+                        size="xs"
                         onMouseEnter={onMouseEnterDirection}
                         onMouseLeave={onMouseLeaveDirection}
-                    ></div>
+                    />
+                    <FontAwesomeIcon
+                        icon={faChevronRight}
+                        className="forward"
+                        size="xs"
+                        onMouseEnter={onMouseEnterDirection}
+                        onMouseLeave={onMouseLeaveDirection}
+                    />
                 </>
             ) : null}
 
