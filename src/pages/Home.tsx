@@ -22,7 +22,6 @@ import { SpotlightOnscrollImage } from "../constants/spotlight/SpotlightOnscroll
 import { SpotlightOrientation } from "../constants/spotlight/SpotlightOrientation";
 import { SpotlightStyle } from "../constants/spotlight/SpotlightStyle";
 import { WrapperStyle } from "../constants/wrapper/WrapperStyle";
-import breakpoints from "../utils/breakpoints";
 import scrollex from "../utils/scrollex";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -141,24 +140,6 @@ export default function Home() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // Breakpoints.
-        breakpoints.init({
-            xlarge: ["1281px", "1680px"],
-            large: ["981px", "1280px"],
-            medium: ["737px", "980px"],
-            small: ["481px", "736px"],
-            xsmall: ["361px", "480px"],
-            xxsmall: [null, "360px"],
-        });
-
-        // Play initial animations on page load.
-        const preloadTimeout = setTimeout(() => {
-            document.body.classList.remove("is-preload");
-        }, 100);
-
-        // Scrollex initialization.
-        scrollex.init();
-
         // Register wrapper div for scrollex.
         const wrapper = document.getElementById("wrapper");
         const scrollexIds: string[] = [];
@@ -198,11 +179,6 @@ export default function Home() {
             for (const id of scrollexIds) {
                 scrollex.unregister(id);
             }
-
-            breakpoints.dispose();
-            scrollex.dispose();
-
-            clearTimeout(preloadTimeout);
         };
     }, []);
 
