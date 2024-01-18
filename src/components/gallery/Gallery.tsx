@@ -305,14 +305,12 @@ export default function Gallery(props: Props) {
                     <FontAwesomeIcon
                         icon={faChevronLeft}
                         className="backward"
-                        size="xs"
                         onMouseEnter={onMouseEnterDirection}
                         onMouseLeave={onMouseLeaveDirection}
                     />
                     <FontAwesomeIcon
                         icon={faChevronRight}
                         className="forward"
-                        size="xs"
                         onMouseEnter={onMouseEnterDirection}
                         onMouseLeave={onMouseLeaveDirection}
                     />

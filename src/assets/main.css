@@ -7096,6 +7096,9 @@ body.is-preload .gallery.onload-fade-in article .image img {
 
 .gallery.style2 > .forward {
     right: 0;
+    /* TODO: find a proper solution to FontAwesome icons not resizing even with size prop */
+    width: 1.5em;
+    padding-right: 0.5em;
     background-image: linear-gradient(
         to left,
         rgba(0, 0, 0, 0.25) 15%,
@@ -7109,6 +7112,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 
 .gallery.style2 > .backward {
     left: 0;
+    width: 1.5em;
+    padding-left: 0.5em;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.25) 15%,
