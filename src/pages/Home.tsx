@@ -247,7 +247,7 @@ export default function Home() {
                 <h2>System Development @ Credence (TM Subsidiary)</h2>
                 <p>
                     In December 28, 2023, I attended an industrial talk about
-                    system development in
+                    system development in{" "}
                     <NewTabLink href="https://credence.tech/">
                         Credence
                     </NewTabLink>
