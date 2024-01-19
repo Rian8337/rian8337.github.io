@@ -43,6 +43,7 @@ export default function PostList() {
 
                     <Suspense fallback={<PostHistoryLoading />}>
                         <History20241 />
+
                         <ScrollToElement smooth />
                     </Suspense>
                 </WrapperInner>
