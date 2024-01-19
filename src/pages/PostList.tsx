@@ -1,12 +1,13 @@
 import { FunctionComponent, Suspense, lazy } from "react";
+import Head from "../components/Head";
+import PostHistoryLoading from "../components/post/PostHistoryLoading";
 import Wrapper from "../components/wrapper/Wrapper";
 import WrapperInner from "../components/wrapper/WrapperInner";
 import { TextAlignment } from "../constants/TextAlignment";
-import { WrapperStyle } from "../constants/wrapper/WrapperStyle";
-import NotFound from "./NotFound";
-import PostHistoryLoading from "../components/post/PostHistoryLoading";
 import { WrapperInnerSize } from "../constants/wrapper/WrapperInnerSize";
-import Head from "../components/Head";
+import { WrapperStyle } from "../constants/wrapper/WrapperStyle";
+import ScrollToElement from "../helpers/ScrollToElement";
+import NotFound from "./NotFound";
 
 const lazyLoadHistory = (year: number, month: number) =>
     lazy(async () => {
@@ -42,6 +43,7 @@ export default function PostList() {
 
                     <Suspense fallback={<PostHistoryLoading />}>
                         <History20241 />
+                        <ScrollToElement />
                     </Suspense>
                 </WrapperInner>
             </Wrapper>

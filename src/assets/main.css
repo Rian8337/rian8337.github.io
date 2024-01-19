@@ -8910,6 +8910,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
     background-color: white;
     z-index: 200;
     box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
 }
 
 @media screen and (max-width: 1680px) {
@@ -8941,18 +8942,19 @@ body.is-preload .items.onload-fade-in > * > .inner {
     margin-left: 0.25rem;
 }
 
-.drawer > p.navigation {
+.drawer p.navigation {
     font-size: 1.15rem;
     margin: 0 0 0 0;
     padding-left: 0.25rem;
     border-top: solid 0.15rem rgb(200, 200, 200);
 }
 
-.drawer > p.navigation:last-child {
+.drawer p.navigation:last-child {
     border-bottom: solid 0.15rem rgb(200, 200, 200);
+    margin-bottom: 0.5rem;
 }
 
-.drawer > p.navigation:hover {
+.drawer p.navigation:hover {
     background-color: rgb(200, 200, 200);
     cursor: pointer;
 }

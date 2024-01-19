@@ -70,7 +70,11 @@ export default function PostHistory(props: Props) {
     }
 
     return (
-        <Wrapper style={WrapperStyle.style1} textAlign={TextAlignment.left}>
+        <Wrapper
+            id={`${props.year}-${props.month}`}
+            style={WrapperStyle.style1}
+            textAlign={TextAlignment.left}
+        >
             <h3 className="align-center">
                 {month} {props.year}
             </h3>

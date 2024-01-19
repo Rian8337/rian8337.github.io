@@ -2,14 +2,17 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 /**
- * A component that scrolls to the top-left of the screen whenever the current path changes.
+ * A component that scrolls to the top-left of the screen whenever the current path changes,
+ * given that no hash path is provided.
  */
 export default function ScrollToTop() {
-    const { pathname } = useLocation();
+    const { pathname, hash } = useLocation();
 
     useEffect(() => {
-        scrollTo(0, 0);
-    }, [pathname]);
+        if (!hash) {
+            scrollTo(0, 0);
+        }
+    }, [pathname, hash]);
 
     return null;
 }

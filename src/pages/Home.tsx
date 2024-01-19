@@ -353,6 +353,32 @@ export default function Home() {
                 textAlign={TextAlignment.center}
             >
                 <WrapperInner>
+                    <h2>Looking for more posts?</h2>
+
+                    <p>Check out my post history!</p>
+
+                    <Actions
+                        stacked
+                        fit
+                        actions={[
+                            <Button
+                                key={0}
+                                primary
+                                label="Post history"
+                                onClick={() => {
+                                    navigate("/posts");
+                                }}
+                            />,
+                        ]}
+                    />
+                </WrapperInner>
+            </Wrapper>
+
+            <Wrapper
+                style={WrapperStyle.style1}
+                textAlign={TextAlignment.center}
+            >
+                <WrapperInner>
                     <h2>Projects</h2>
                     <p>
                         I create and maintain a couple of projects as a side

@@ -1,29 +1,7 @@
 import { motion } from "framer-motion";
 import { MouseEventHandler } from "react";
-import { useNavigate } from "react-router-dom";
-
-interface DrawerEntryProps {
-    readonly label: string;
-    readonly url: string;
-    readonly onClick: MouseEventHandler<HTMLParagraphElement>;
-}
-
-function DrawerEntry(props: DrawerEntryProps) {
-    const navigate = useNavigate();
-
-    return (
-        <p
-            className="navigation"
-            onClick={(e) => {
-                props.onClick(e);
-
-                navigate(props.url);
-            }}
-        >
-            {props.label}
-        </p>
-    );
-}
+import DrawerEntry from "./DrawerEntry";
+import DrawerSection from "./DrawerSection";
 
 interface Props {
     /**
@@ -60,14 +38,21 @@ export default function DrawerContent(props: Props) {
             }}
             className="drawer"
         >
-            <h3 className="align-center">Directory</h3>
+            <DrawerSection title="Directory">
+                <DrawerEntry
+                    label="Home"
+                    url="/"
+                    onClick={props.onEntryClick}
+                />
+            </DrawerSection>
 
-            <DrawerEntry label="Home" url="/" onClick={props.onEntryClick} />
-            <DrawerEntry
-                label="Posts"
-                url="/posts"
-                onClick={props.onEntryClick}
-            />
+            <DrawerSection title="Posts">
+                <DrawerEntry
+                    label="January 2024"
+                    url="/posts#2024-1"
+                    onClick={props.onEntryClick}
+                />
+            </DrawerSection>
         </motion.div>
     );
 }

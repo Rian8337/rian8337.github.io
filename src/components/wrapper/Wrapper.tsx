@@ -13,6 +13,11 @@ interface Props extends BaseProps {
     readonly style: WrapperStyle;
 
     /**
+     * The ID of this wrapper.
+     */
+    readonly id?: string;
+
+    /**
      * The background size of this wrapper.
      */
     readonly backgroundColor?: WrapperBackgroundColor;
@@ -79,6 +84,7 @@ export default function Wrapper(props: PropsWithChildren<Props>) {
 
     return (
         <motion.section
+            id={props.id}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
