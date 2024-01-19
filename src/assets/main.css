@@ -8914,25 +8914,25 @@ body.is-preload .items.onload-fade-in > * > .inner {
 
 @media screen and (max-width: 1680px) {
     .drawer {
-        width: 25%;
+        width: 27.5%;
     }
 }
 
 @media screen and (max-width: 1280px) {
     .drawer {
-        width: 30%;
+        width: 35%;
     }
 }
 
 @media screen and (max-width: 980px) {
     .drawer {
-        width: 35%;
+        width: 42.5%;
     }
 }
 
 @media screen and (max-width: 736px) {
     .drawer {
-        width: 40%;
+        width: 50%;
     }
 }
 
