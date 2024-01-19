@@ -210,8 +210,36 @@ export default function Home() {
 
             <Spotlight
                 style={SpotlightStyle.style1}
-                imageUrl="images/posts/2024/1/6/poster.jpg"
+                imageUrl="images/posts/2024/1/7/opened-desktop.jpg"
                 orientation={SpotlightOrientation.right}
+                contentAlignment={SpotlightContentAlignment.left}
+                imagePosition={SpotlightImagePosition.center}
+                onscrollImage={SpotlightOnscrollImage.fadeIn}
+            >
+                <h2>Assembling a PC</h2>
+                <p>
+                    In December 6, 2023, I had a chance to assembly a PC. Here
+                    is a summary of what I did and learned!
+                </p>
+
+                <Actions
+                    stacked
+                    actions={[
+                        <Button
+                            key={0}
+                            label="Read more"
+                            onClick={() => {
+                                navigate("/post/2024/1/7");
+                            }}
+                        />,
+                    ]}
+                />
+            </Spotlight>
+
+            <Spotlight
+                style={SpotlightStyle.style1}
+                imageUrl="images/posts/2024/1/6/poster.jpg"
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -244,7 +272,7 @@ export default function Home() {
             <Spotlight
                 style={SpotlightStyle.style1}
                 imageUrl="images/posts/2024/1/5/utmdigital-front-lobby.jpg"
-                orientation={SpotlightOrientation.left}
+                orientation={SpotlightOrientation.right}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -283,7 +311,7 @@ export default function Home() {
             <Spotlight
                 style={SpotlightStyle.style1}
                 imageUrl="images/posts/2024/1/4/poster.jpg"
-                orientation={SpotlightOrientation.right}
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -314,38 +342,6 @@ export default function Home() {
                             label="Read more"
                             onClick={() => {
                                 navigate("/post/2024/1/4");
-                            }}
-                        />,
-                    ]}
-                />
-            </Spotlight>
-
-            <Spotlight
-                style={SpotlightStyle.style1}
-                imageUrl="images/posts/2024/1/3/poster.png"
-                orientation={SpotlightOrientation.left}
-                contentAlignment={SpotlightContentAlignment.left}
-                imagePosition={SpotlightImagePosition.center}
-                onscrollImage={SpotlightOnscrollImage.fadeIn}
-            >
-                <h2>Overview of ICT Jobs in Clarity Techworks</h2>
-                <p>
-                    In November 14, 2023, I attended an industrial talk that
-                    talked about various ICT jobs at{" "}
-                    <NewTabLink href="https://www.claritytech.sg/">
-                        Clarity Techworks
-                    </NewTabLink>
-                    . Here is a summary of what I learned!
-                </p>
-
-                <Actions
-                    stacked
-                    actions={[
-                        <Button
-                            key={0}
-                            label="Read more"
-                            onClick={() => {
-                                navigate("/post/2024/1/3");
                             }}
                         />,
                     ]}

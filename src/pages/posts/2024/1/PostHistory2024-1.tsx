@@ -6,6 +6,7 @@ export default function PostHistory20241() {
             year={2024}
             month={1}
             titles={[
+                "Assembling a PC",
                 "Industrial Talk: System Development @ Credence (TM Subsidiary)",
                 "A visit to UTMDigital - Universiti Teknologi Malaysia's Digital University Driver",
                 "Virtual Talk: UTMDigital - Universiti Teknologi Malaysia's Digital University Driver",
