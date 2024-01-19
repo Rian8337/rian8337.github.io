@@ -11,6 +11,7 @@ import PostList from "./pages/PostList";
 import { useEffect } from "react";
 import scrollex from "./utils/scrollex";
 import breakpoints from "./utils/breakpoints";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 export default function App() {
     useEffect(() => {
@@ -42,6 +43,7 @@ export default function App() {
 
     return (
         <>
+            <ScrollToTop />
             <Drawer />
             <Header />
 
