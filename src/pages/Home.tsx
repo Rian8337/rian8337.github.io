@@ -92,9 +92,8 @@ const projectItems: Item[] = [
                 contains a core package that interops between osu!droid and
                 osu!(standard), a difficulty calculator for osu!droid and
                 osu!(standard), an osu!droid replay analyzer, osu!droid-related
-                utilities, and a difficulty strain graph generator.
-                Consecutively, this is where the calculation algorithm of Elaina
-                PP Project is hosted.
+                utilities, and a difficulty strain graph generator. This is
+                where the calculation algorithm of Elaina PP Project is hosted.
             </p>
         ),
         faIcon: faToolbox,
