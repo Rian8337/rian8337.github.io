@@ -8,7 +8,7 @@ export default function Post2024_1_7() {
             title={title}
             websiteTitle={title}
             headerImageUrl="images/posts/2024/1/7/opened-desktop.jpg"
-            postTime={Date.now() / 1000}
+            postTime={1705680120}
         >
             <p>
                 In December 6, 2023, had the chance to assemble a PC in a lab.
