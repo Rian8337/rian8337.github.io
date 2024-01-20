@@ -33,7 +33,7 @@ export default function Footer() {
             <footer>
                 <Icons>
                     <IconLink
-                        link="https://www.linkedin.com/in/reza-mouna-hendrian-80a09a281/"
+                        link="https://www.linkedin.com/in/reza-mouna-hendrian/"
                         icon={faLinkedin}
                     />
                     <IconLink
