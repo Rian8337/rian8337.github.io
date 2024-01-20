@@ -28,6 +28,7 @@ import {
     faGamepad,
     faLineChart,
     faPencil,
+    faToolbox,
     faTv,
     faWarehouse,
 } from "@fortawesome/free-solid-svg-icons";
@@ -78,6 +79,25 @@ const projectItems: Item[] = [
             </p>
         ),
         faIcon: faLineChart,
+    },
+    {
+        title: (
+            <NewTabLink href="https://github.com/Rian8337/osu-droid-module">
+                osu!droid module
+            </NewTabLink>
+        ),
+        description: (
+            <p>
+                A collection of modules for osu!droid and osu!(standard). It
+                contains a core package that interops between osu!droid and
+                osu!(standard), a difficulty calculator for osu!droid and
+                osu!(standard), an osu!droid replay analyzer, osu!droid-related
+                utilities, and a difficulty strain graph generator.
+                Consecutively, this is where the calculation algorithm of Elaina
+                PP Project is hosted.
+            </p>
+        ),
+        faIcon: faToolbox,
     },
     {
         title: (
