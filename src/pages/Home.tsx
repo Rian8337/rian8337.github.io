@@ -229,8 +229,37 @@ export default function Home() {
 
             <Spotlight
                 style={SpotlightStyle.style1}
-                imageUrl="images/posts/2024/1/7/opened-desktop.jpg"
+                imageUrl="images/posts/2024/1/8/regular-website.gif"
                 orientation={SpotlightOrientation.right}
+                contentAlignment={SpotlightContentAlignment.left}
+                imagePosition={SpotlightImagePosition.center}
+                onscrollImage={SpotlightOnscrollImage.fadeIn}
+            >
+                <h2>Design Thinking - Practicing Design in Building Systems</h2>
+                <p>
+                    In January 17, 2024, I collaborated with my friends to
+                    practice creating a low-fidelity prototype for systems. Here
+                    is our design and what I have learned!
+                </p>
+
+                <Actions
+                    stacked
+                    actions={[
+                        <Button
+                            key={0}
+                            label="Read more"
+                            onClick={() => {
+                                navigate("/post/2024/1/8");
+                            }}
+                        />,
+                    ]}
+                />
+            </Spotlight>
+
+            <Spotlight
+                style={SpotlightStyle.style1}
+                imageUrl="images/posts/2024/1/7/opened-desktop.jpg"
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -258,7 +287,7 @@ export default function Home() {
             <Spotlight
                 style={SpotlightStyle.style1}
                 imageUrl="images/posts/2024/1/6/poster.jpg"
-                orientation={SpotlightOrientation.left}
+                orientation={SpotlightOrientation.right}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -291,7 +320,7 @@ export default function Home() {
             <Spotlight
                 style={SpotlightStyle.style1}
                 imageUrl="images/posts/2024/1/5/utmdigital-front-lobby.jpg"
-                orientation={SpotlightOrientation.right}
+                orientation={SpotlightOrientation.left}
                 contentAlignment={SpotlightContentAlignment.left}
                 imagePosition={SpotlightImagePosition.center}
                 onscrollImage={SpotlightOnscrollImage.fadeIn}
@@ -321,46 +350,6 @@ export default function Home() {
                             label="Read more"
                             onClick={() => {
                                 navigate("/post/2024/1/5");
-                            }}
-                        />,
-                    ]}
-                />
-            </Spotlight>
-
-            <Spotlight
-                style={SpotlightStyle.style1}
-                imageUrl="images/posts/2024/1/4/poster.jpg"
-                orientation={SpotlightOrientation.left}
-                contentAlignment={SpotlightContentAlignment.left}
-                imagePosition={SpotlightImagePosition.center}
-                onscrollImage={SpotlightOnscrollImage.fadeIn}
-            >
-                <h2>
-                    UTMDigital - Universiti Teknologi Malaysia&apos;s Digital
-                    University Driver
-                </h2>
-                <p>
-                    In December 5, 2023, I attended a virtual talk that talked
-                    about{" "}
-                    <NewTabLink href="https://digital.utm.my/">
-                        UTMDigital
-                    </NewTabLink>
-                    ,{" "}
-                    <NewTabLink href="https://www.utm.my">
-                        Universiti Teknologi Malaysia
-                    </NewTabLink>
-                    &apos;s primary driver towards a digital university. Here is
-                    a summary of what I learned!
-                </p>
-
-                <Actions
-                    stacked
-                    actions={[
-                        <Button
-                            key={0}
-                            label="Read more"
-                            onClick={() => {
-                                navigate("/post/2024/1/4");
                             }}
                         />,
                     ]}
