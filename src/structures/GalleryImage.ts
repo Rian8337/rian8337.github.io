@@ -10,9 +10,9 @@ export interface GalleryImage {
     readonly fullImageUrl: string;
 
     /**
-     * The URL to the thumbnail image.
+     * The URL to the thumbnail image. Defaults to the URL to the full image.
      */
-    readonly thumbnailImageUrl: string;
+    readonly thumbnailImageUrl?: string;
 
     /**
      * The caption title of the image.

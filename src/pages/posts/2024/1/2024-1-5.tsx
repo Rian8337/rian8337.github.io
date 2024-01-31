@@ -10,59 +10,38 @@ const baseImagePath = "images/posts/2024/1/5/";
 const mainWorkplaceImages: GalleryImage[] = [
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Workplace Overview",
         captionDescription: "An overview of the workplace.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace-table.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Working Table",
         captionDescription: "The place where workers work!",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace-kitchen.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Kitchen",
         captionDescription: "Perfect for making little snacks and drinks!",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace-meeting-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Meeting Room",
         captionDescription: "Primary meeting room in the office.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace-cube-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Cube",
         captionDescription:
             "A small meeting room intended for small meetings or quick brainstorming sessions.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace-game-space.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Game Space",
         captionDescription:
             "A section for workers to play games to relax temporarily.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-workplace-storage-locker.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Storage Lockers",
         captionDescription:
             "Lockers for workers to store their items while working in the workplace.",
@@ -72,58 +51,37 @@ const mainWorkplaceImages: GalleryImage[] = [
 const digitalCareImages: GalleryImage[] = [
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-front.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Lobby",
         captionDescription: "Lobby of UTMDigital care.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-sangfor-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Sangfor Room",
         captionDescription: "A meeting room sponsored by Sangfor.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-think-tank-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Think Tank",
         captionDescription: "A small meeting room.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-ruckus-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Ruckus",
         captionDescription: "A small conference room.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-aruba-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Aruba",
         captionDescription: "Another meeting room with a more relaxed aura.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-juniper-networks-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "Juniper Networks Room",
         captionDescription:
             "Yet another meeting room, sponsored by Juniper Networks.",
     },
     {
         fullImageUrl: `${baseImagePath}utmdigital-care-tm-room.png`,
-        get thumbnailImageUrl() {
-            return this.fullImageUrl;
-        },
         captionTitle: "TM Room",
         captionDescription:
             "A meeting and conferencing room sponsored by TM One.",

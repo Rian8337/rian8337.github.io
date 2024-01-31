@@ -37,7 +37,7 @@ export default function GalleryImage(props: Props) {
         <article>
             <a href={image.fullImageUrl} onClick={props.onImageClick}>
                 <Image
-                    src={image.thumbnailImageUrl}
+                    src={image.thumbnailImageUrl ?? image.fullImageUrl}
                     onLoad={props.onImageLoad}
                 />
             </a>
