@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NewTabLink from "../../../../components/NewTabLink";
 import Gallery from "../../../../components/gallery/Gallery";
 import UnorderedList from "../../../../components/list/UnorderedList";
@@ -106,8 +107,8 @@ export default function Post2024_1_5() {
                 <h2>Overview</h2>
 
                 <p>
-                    In my <a href="#/post/2024/1/4">last post</a>, I shared my
-                    experience in a virtual talk about{" "}
+                    In my <Link to="/post/2024/1/4">last post</Link>, I shared
+                    my experience in a virtual talk about{" "}
                     <NewTabLink href="https://digital.utm.my/">
                         UTMDigital
                     </NewTabLink>
