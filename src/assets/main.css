@@ -6606,6 +6606,12 @@ body.is-preload .gallery.onload-fade-in article .image img {
     opacity: 0;
 }
 
+/* Gallery */
+
+.gallery {
+    margin-bottom: 1rem;
+}
+
 /* Gallery (style1) */
 
 .gallery.style1 {
